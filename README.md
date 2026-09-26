@@ -175,7 +175,7 @@ The metric that matters: **useful symbols discovered per token spent.**
 ## Quick Start
 
 ```bash
-git clone https://github.com/mreza0100/loom.git
+git clone https://github.com/rezzminator/loom.git
 cd loom
 cargo build --workspace
 ```

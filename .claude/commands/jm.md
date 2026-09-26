@@ -153,7 +153,7 @@ After reporting, ask: "Want me to fix these issues?"
 
 ## Update — Pull Jungche Blueprint Updates
 
-When `$ARGUMENTS` starts with `update`, pull latest from `https://github.com/mreza0100/jungche`.
+When `$ARGUMENTS` starts with `update`, pull latest from `https://github.com/rezzminator/jungche`.
 
 ### Subcommand options
 
@@ -175,7 +175,7 @@ LOCAL_VERSION=$(cat .claude/JUNGCHE_VERSION 2>/dev/null || echo "unknown")
 ```bash
 BLUEPRINT_DIR="${HOME}/.cache/jungche-update"
 if [ ! -d "$BLUEPRINT_DIR/.git" ]; then
-  git clone https://github.com/mreza0100/jungche.git "$BLUEPRINT_DIR"
+  git clone https://github.com/rezzminator/jungche.git "$BLUEPRINT_DIR"
 else
   (cd "$BLUEPRINT_DIR" && git fetch --tags origin && git pull --ff-only origin main)
 fi

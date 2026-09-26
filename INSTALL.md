@@ -10,7 +10,7 @@ Loom is a Rust MCP server that gives AI coding tools vector search over a pre-in
 ## Build
 
 ```bash
-git clone https://github.com/mreza0100/loom.git
+git clone https://github.com/rezzminator/loom.git
 cd loom
 cargo build --workspace
 ```

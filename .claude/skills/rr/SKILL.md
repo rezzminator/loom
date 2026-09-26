@@ -1,7 +1,7 @@
 ---
 name: rr
 version: "1.1.0"
-repo: "https://github.com/mreza0100/rr"
+repo: "https://github.com/rezzminator/rr"
 description: "Research-and-Report protocol. Research can target the **internet, the local codebase, or both** — RR detects this from the topic and tells the agent which sources to use. Two modes — RR (build an RRP, spawn a research agent to execute the dynamic multi-batch pipeline, deliver the agent's report) and RRP (write a self-contained prompt for the user to run in another chat). Triggered when the user says 'RR', 'research and report', 'RRP', 'RR-prompt', 'research <topic>', 'look into <topic>', or 'find out <topic>'. Use this skill INSTEAD of jumping straight to web search OR straight to grep — RR is a structured pipeline executed by a delegated agent, not a single query."
 ---
 
@@ -198,7 +198,7 @@ Do NOT load this skill for ordinary research requests like "look up X" or "what 
 ## Version & Updates
 
 **Current version:** 1.1.0
-**Repository:** https://github.com/mreza0100/rr
+**Repository:** https://github.com/rezzminator/rr
 
 To check for updates, compare the `version` field in your installed SKILL.md frontmatter against the latest in the repository.
 
